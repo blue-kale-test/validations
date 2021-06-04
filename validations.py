@@ -15,4 +15,12 @@ def validate_user(username, minlen):
   # Usernames can't begin with a number
   if username[0].isnumeric():
       return False
+    
+  for i in username[1:]:
+      if i.isdigit():
+          p1 = True
+      if i.isalpha():
+          p2 = True
+  if not p1 and p2:
+      return False
   return True
