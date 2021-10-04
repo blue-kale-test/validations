@@ -1,0 +1,11 @@
+creating test.txt in 14:21 with nano on branch test-branch 
+
+adding a new test line at 14:27
+
+add 3 line
+
+add 4 line 
+
+add 5 line
+
+dd 6 line
