@@ -3,6 +3,7 @@
 
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions."""
+  #Just adding this comment for learning git pull request
   if type(username) != str:
     raise TypeError("username must be a string")
   if minlen < 1:
