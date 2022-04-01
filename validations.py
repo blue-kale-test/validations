@@ -10,6 +10,7 @@ def validate_user(username, minlen):
     
   if len(username) < minlen:
       return False
+  # Check if username is alphanumeric
   if not username.isalnum():
       return False
   # Usernames can't begin with a number
