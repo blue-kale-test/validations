@@ -2,7 +2,8 @@
 
 
 def validate_user(username, minlen):
-  """Checks if the received username matches the required conditions."""
+  """Checks if the received username matches the required conditions.
+     Comprueba si el nombre de usuario recibido coincide con las condiciones requeridas"""
   if type(username) != str:
     raise TypeError("username must be a string")
   if minlen < 1:
@@ -13,6 +14,7 @@ def validate_user(username, minlen):
   if not username.isalnum():
       return False
   # Usernames can't begin with a number
+  # Los nombres de usuario no pueden comenzar con un número
   if username[0].isnumeric():
       return False
   return True
