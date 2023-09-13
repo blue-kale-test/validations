@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+"""Validations validated the username based on the following rules: It must be a string, greater than 1 character long and the first character is not a num"""
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions."""
   if type(username) != str:
