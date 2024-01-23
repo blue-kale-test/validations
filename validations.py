@@ -6,7 +6,7 @@ def validate_user(username, minlen):
   if type(username) != str:
     raise TypeError("username must be a string")
   if minlen < 1:
-    raise ValueError("minlen must be at least 1")
+    raise ValueError("minlen must be atleast 1")
     
   if len(username) < minlen:
       return False
