@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+# This is just a simple  pull request test
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions."""
   if type(username) != str:
