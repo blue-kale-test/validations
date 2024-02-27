@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#adding new comment
 
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions."""
