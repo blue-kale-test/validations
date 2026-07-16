@@ -1,5 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3  
 
+""" Note: The shebang line above will run in Linux and macOS systems. 
+          For Windows systems, replace python3 with python. """
 
 def validate_user(username, minlen):
   """Checks if the received username matches the required conditions."""
